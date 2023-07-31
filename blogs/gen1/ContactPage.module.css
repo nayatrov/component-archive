@@ -1,0 +1,52 @@
+.cp-container {
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background-color: tan;
+    border-radius: 5%;
+    margin-bottom: 5%;
+}
+
+.cp-mh {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Tangerine', cursive;
+}
+
+.cp-heading {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font: 35px;
+}
+
+.persons-div {
+    width: 100%;
+}
+
+.cp-l {
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cp-r {
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Styles for mobile devices go here */
+@media (max-width: 768px) {
+    .cp-l,
+    .cp-r {
+        width: 100%;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

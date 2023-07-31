@@ -1,0 +1,43 @@
+/* Namecard.module.css */
+.namecard-container {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 100px; /* Add rounded borders */
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 40%;
+    margin-right: 10%;
+}
+
+/* container for content inside namecard container */
+.namecard-content {
+}
+  
+.image-container {
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.info-container {
+    display: inline-block;
+    align-items: right;
+    justify-content: right;
+}
+  
+.a-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    text-align: right;
+    padding-bottom: 5%;
+}
+  
+.a-description {
+    font-size: 14px;
+    text-align: center;
+}
+  

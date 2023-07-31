@@ -1,0 +1,47 @@
+/* src/BlogList.css */
+
+.bl-container {
+  background-color: tan; /* Light Pink */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 100%; /* Set the width to 100% */
+}
+
+
+.bl-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.blog-list-item:hover {
+  background-color: tan;
+}
+
+.blog-title {
+  flex: 1;
+  margin-right: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+
+}
+
+.blog-link {
+  background-color: #fff;
+  color: #333;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+}
+

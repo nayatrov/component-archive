@@ -1,0 +1,32 @@
+/* the image element in between the title and actual content */
+.blog-post-image{
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* the title above each image and below the content */
+.bp-title {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Tangerine', cursive;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+/* container for the individual paragraph and headings*/
+.blog-content{ 
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* container for the entire blog post component*/
+.blog-post-container{
+  padding-bottom: 5%;
+  background-color: tan;
+  border-radius: 3%;
+  margin-bottom: 5%;
+}

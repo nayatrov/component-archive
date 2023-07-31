@@ -1,0 +1,26 @@
+/* src/Banner.css */
+
+.banner-link {
+  text-decoration: none;
+  color: inherit;
+  width: 99%; /* 99% because for some reason 100% overshoots window length */
+  padding-left: 0.5%; /* natrually 1% space on right side so 0.5% left centers it*/
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container {
+  background-color: tan; /* Lavender */
+  color: black; /* Lime Green */
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px; 
+  margin-bottom: 20px; 
+  text-decoration: none;
+}
+
+.banner-text {
+  font-size: 60px;
+  font-family: 'Tangerine', cursive;
+  text-decoration: none;
+}

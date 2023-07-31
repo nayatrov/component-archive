@@ -1,0 +1,19 @@
+.pripol-container {
+    justify-content: center;
+    padding-bottom: 5%;
+    background-color: tan;
+    border-radius: 5%;
+    margin-bottom: 5%;
+}
+
+.pripol-title {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+}
+
+.pripol-content-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
