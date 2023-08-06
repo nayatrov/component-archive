@@ -18,6 +18,13 @@ interface ProductDisplayProps {
   product: Product;
 }
 
+
+//ProductDisplay is the component used to display individual products
+// all of their info, and the ability to add to cart
+
+// used on each corresponding products page at [id].js
+// route for the page is '/products/{id}'
+
 const ProductDisplay: React.FC<ProductDisplayProps> = ({ product }) => {
   // used to check whether to show checkout or cart button
   const [isCheckout, setIsCheckout] = useState(false);
